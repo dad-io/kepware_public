@@ -1,0 +1,8 @@
+{
+	"Kepware_IP" : "127.0.0.1",
+	"configApiUsername" : "Administrator",
+	"configApiPassword" : "Kepware400!!!!",
+	"channel_name" : "channelModbus",
+	"path" : "csvs/ModbusTags.csv",
+	"Broker_IP" : "127.0.0.1"
+}

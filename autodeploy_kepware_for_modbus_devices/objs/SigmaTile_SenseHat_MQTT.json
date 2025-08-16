@@ -1,0 +1,496 @@
+﻿{
+	"project": {
+		"common.ALLTYPES_DESCRIPTION": "",
+		"servermain.PROJECT_TITLE": "",
+		"channels": [
+			{
+				"common.ALLTYPES_NAME": "Channel1",
+				"servermain.MULTIPLE_TYPES_DEVICE_DRIVER": "Modbus TCP/IP Ethernet",
+				"servermain.CHANNEL_DIAGNOSTICS_CAPTURE": false,
+				"servermain.CHANNEL_UNIQUE_ID": 2698612575,
+				"servermain.CHANNEL_ETHERNET_COMMUNICATIONS_NETWORK_ADAPTER_STRING": "",
+				"servermain.CHANNEL_WRITE_OPTIMIZATIONS_METHOD": 2,
+				"servermain.CHANNEL_WRITE_OPTIMIZATIONS_DUTY_CYCLE": 10,
+				"servermain.CHANNEL_NON_NORMALIZED_FLOATING_POINT_HANDLING": 0,
+				"servermain.CHANNEL_COMMUNICATIONS_SERIALIZATION_VIRTUAL_NETWORK": 0,
+				"servermain.CHANNEL_COMMUNICATIONS_SERIALIZATION_TRANSACTIONS_PER_CYCLE": 1,
+				"servermain.CHANNEL_COMMUNICATIONS_SERIALIZATION_NETWORK_MODE": 0,
+				"modbus_ethernet.CHANNEL_USE_ONE_OR_MORE_SOCKETS_PER_DEVICE": 1,
+				"modbus_ethernet.CHANNEL_MAXIMUM_SOCKETS_PER_DEVICE": 1,
+				"modbus_ethernet.CHANNEL_ETHERNET_PORT_NUMBER": 502,
+				"modbus_ethernet.CHANNEL_ETHERNET_PROTOCOL": 0,
+				"devices": [
+					{
+						"common.ALLTYPES_NAME": "Device1",
+						"servermain.MULTIPLE_TYPES_DEVICE_DRIVER": "Modbus TCP/IP Ethernet",
+						"servermain.DEVICE_MODEL": 0,
+						"servermain.DEVICE_UNIQUE_ID": 2917873728,
+						"servermain.DEVICE_ID_FORMAT": 0,
+						"servermain.DEVICE_ID_STRING": "<132.253.75.52>.0",
+						"servermain.DEVICE_ID_HEXADECIMAL": 0,
+						"servermain.DEVICE_ID_DECIMAL": 0,
+						"servermain.DEVICE_ID_OCTAL": 0,
+						"servermain.DEVICE_DATA_COLLECTION": true,
+						"servermain.DEVICE_SIMULATED": false,
+						"servermain.DEVICE_SCAN_MODE": 0,
+						"servermain.DEVICE_SCAN_MODE_RATE_MS": 1000,
+						"servermain.DEVICE_SCAN_MODE_PROVIDE_INITIAL_UPDATES_FROM_CACHE": false,
+						"servermain.DEVICE_CONNECTION_TIMEOUT_SECONDS": 3,
+						"servermain.DEVICE_REQUEST_TIMEOUT_MILLISECONDS": 1000,
+						"servermain.DEVICE_RETRY_ATTEMPTS": 3,
+						"servermain.DEVICE_INTER_REQUEST_DELAY_MILLISECONDS": 0,
+						"servermain.DEVICE_AUTO_DEMOTION_ENABLE_ON_COMMUNICATIONS_FAILURES": false,
+						"servermain.DEVICE_AUTO_DEMOTION_DEMOTE_AFTER_SUCCESSIVE_TIMEOUTS": 3,
+						"servermain.DEVICE_AUTO_DEMOTION_PERIOD_MS": 10000,
+						"servermain.DEVICE_AUTO_DEMOTION_DISCARD_WRITES": false,
+						"servermain.DEVICE_TAG_GENERATION_ON_STARTUP": 0,
+						"servermain.DEVICE_TAG_GENERATION_DUPLICATE_HANDLING": 0,
+						"servermain.DEVICE_TAG_GENERATION_GROUP": "",
+						"servermain.DEVICE_TAG_GENERATION_ALLOW_SUB_GROUPS": true,
+						"modbus_ethernet.DEVICE_VARIABLE_IMPORT_FILE": "",
+						"modbus_ethernet.DEVICE_VARIABLE_IMPORT_INCLUDE_DESCRIPTIONS": 1,
+						"modbus_ethernet.DEVICE_UNSOLICITED_OPC_QUALITY_BAD_UNTIL_WRITE": false,
+						"modbus_ethernet.DEVICE_UNSOLICITED_COMMUNICATIONS_TIMEOUT_SECONDS": 0,
+						"modbus_ethernet.DEVICE_DEACTIVATE_TAGS_ON_ILLEGAL_ADDRESS": 1,
+						"modbus_ethernet.DEVICE_SUB_MODEL": 1,
+						"modbus_ethernet.DEVICE_ETHERNET_PORT_NUMBER": 502,
+						"modbus_ethernet.DEVICE_ETHERNET_IP_PROTOCOL": 1,
+						"modbus_ethernet.DEVICE_ETHERNET_CLOSE_TCP_SOCKET_ON_TIMEOUT": true,
+						"modbus_ethernet.DEVICE_ZERO_BASED_ADDRESSING": true,
+						"modbus_ethernet.DEVICE_ZERO_BASED_BIT_ADDRESSING": true,
+						"modbus_ethernet.DEVICE_HOLDING_REGISTER_BIT_MASK_WRITES": true,
+						"modbus_ethernet.DEVICE_MODBUS_FUNCTION_06": true,
+						"modbus_ethernet.DEVICE_MODBUS_FUNCTION_05": true,
+						"modbus_ethernet.DEVICE_CEG_EXTENSION": true,
+						"modbus_ethernet.DEVICE_MAILBOX_CLIENT_PRIVILEGES": 0,
+						"modbus_ethernet.DEVICE_MODBUS_BYTE_ORDER": true,
+						"modbus_ethernet.DEVICE_FIRST_WORD_LOW": true,
+						"modbus_ethernet.DEVICE_FIRST_DWORD_LOW": false,
+						"modbus_ethernet.DEVICE_MODICON_BIT_ORDER": false,
+						"modbus_ethernet.DEVICE_TREAT_LONGS_AS_DOUBLE_PRECISION_UNSIGNED_DECIMAL": true,
+						"modbus_ethernet.DEVICE_OUTPUT_COILS": 32,
+						"modbus_ethernet.DEVICE_INPUT_COILS": 32,
+						"modbus_ethernet.DEVICE_INTERNAL_REGISTERS": 32,
+						"modbus_ethernet.DEVICE_HOLDING_REGISTERS": 32,
+						"modbus_ethernet.DEVICE_PERFORM_BLOCK_READ_ON_STRINGS": 0,
+						"redundancy.DEVICE_SECONDARY_PATH": "",
+						"redundancy.DEVICE_OPERATING_MODE": 0,
+						"redundancy.DEVICE_MONITOR_ITEM": "",
+						"redundancy.DEVICE_MONITOR_ITEM_POLL_INTERVAL": 300,
+						"redundancy.DEVICE_FAVOR_PRIMARY": true,
+						"redundancy.DEVICE_TRIGGER_ITEM": "",
+						"redundancy.DEVICE_TRIGGER_ITEM_SCAN_RATE": 1000,
+						"redundancy.DEVICE_TRIGGER_TYPE": 0,
+						"redundancy.DEVICE_TRIGGER_OPERATOR": 0,
+						"redundancy.DEVICE_TRIGGER_VALUE": "",
+						"redundancy.DEVICE_TRIGGER_TIMEOUT": 10000,
+						"tags": [
+							{
+								"common.ALLTYPES_NAME": "Acceleration_X",
+								"servermain.TAG_ADDRESS": "40007",
+								"servermain.TAG_DATA_TYPE": 8,
+								"servermain.TAG_READ_WRITE_ACCESS": 1,
+								"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+								"servermain.TAG_SCALING_TYPE": 0
+							},
+							{
+								"common.ALLTYPES_NAME": "Acceleration_Y",
+								"servermain.TAG_ADDRESS": "40009",
+								"servermain.TAG_DATA_TYPE": 8,
+								"servermain.TAG_READ_WRITE_ACCESS": 1,
+								"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+								"servermain.TAG_SCALING_TYPE": 0
+							},
+							{
+								"common.ALLTYPES_NAME": "Acceleration_Z",
+								"servermain.TAG_ADDRESS": "40011",
+								"servermain.TAG_DATA_TYPE": 8,
+								"servermain.TAG_READ_WRITE_ACCESS": 1,
+								"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+								"servermain.TAG_SCALING_TYPE": 0
+							},
+							{
+								"common.ALLTYPES_NAME": "BadCount",
+								"servermain.TAG_ADDRESS": "40027",
+								"servermain.TAG_DATA_TYPE": 5,
+								"servermain.TAG_READ_WRITE_ACCESS": 1,
+								"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+								"servermain.TAG_SCALING_TYPE": 0
+							},
+							{
+								"common.ALLTYPES_NAME": "GoodCount",
+								"servermain.TAG_ADDRESS": "40026",
+								"servermain.TAG_DATA_TYPE": 5,
+								"servermain.TAG_READ_WRITE_ACCESS": 1,
+								"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+								"servermain.TAG_SCALING_TYPE": 0
+							},
+							{
+								"common.ALLTYPES_NAME": "Gyroscope_Pitch",
+								"servermain.TAG_ADDRESS": "40015",
+								"servermain.TAG_DATA_TYPE": 8,
+								"servermain.TAG_READ_WRITE_ACCESS": 1,
+								"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+								"servermain.TAG_SCALING_TYPE": 0
+							},
+							{
+								"common.ALLTYPES_NAME": "Gyroscope_Roll",
+								"servermain.TAG_ADDRESS": "40013",
+								"servermain.TAG_DATA_TYPE": 8,
+								"servermain.TAG_READ_WRITE_ACCESS": 1,
+								"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+								"servermain.TAG_SCALING_TYPE": 0
+							},
+							{
+								"common.ALLTYPES_NAME": "Gyroscope_Yaw",
+								"servermain.TAG_ADDRESS": "40017",
+								"servermain.TAG_DATA_TYPE": 8,
+								"servermain.TAG_READ_WRITE_ACCESS": 1,
+								"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+								"servermain.TAG_SCALING_TYPE": 0
+							},
+							{
+								"common.ALLTYPES_NAME": "Humidity",
+								"servermain.TAG_ADDRESS": "40003",
+								"servermain.TAG_DATA_TYPE": 8,
+								"servermain.TAG_READ_WRITE_ACCESS": 1,
+								"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+								"servermain.TAG_SCALING_TYPE": 0
+							},
+							{
+								"common.ALLTYPES_NAME": "Orientation_Pitch",
+								"servermain.TAG_ADDRESS": "40021",
+								"servermain.TAG_DATA_TYPE": 8,
+								"servermain.TAG_READ_WRITE_ACCESS": 1,
+								"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+								"servermain.TAG_SCALING_TYPE": 0
+							},
+							{
+								"common.ALLTYPES_NAME": "Orientation_Roll",
+								"servermain.TAG_ADDRESS": "40019",
+								"servermain.TAG_DATA_TYPE": 8,
+								"servermain.TAG_READ_WRITE_ACCESS": 1,
+								"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+								"servermain.TAG_SCALING_TYPE": 0
+							},
+							{
+								"common.ALLTYPES_NAME": "Orientation_Yaw",
+								"servermain.TAG_ADDRESS": "40023",
+								"servermain.TAG_DATA_TYPE": 8,
+								"servermain.TAG_READ_WRITE_ACCESS": 1,
+								"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+								"servermain.TAG_SCALING_TYPE": 0
+							},
+							{
+								"common.ALLTYPES_NAME": "Pressure",
+								"servermain.TAG_ADDRESS": "40005",
+								"servermain.TAG_DATA_TYPE": 8,
+								"servermain.TAG_READ_WRITE_ACCESS": 1,
+								"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+								"servermain.TAG_SCALING_TYPE": 0
+							},
+							{
+								"common.ALLTYPES_NAME": "Screen_Control",
+								"servermain.TAG_ADDRESS": "40025",
+								"servermain.TAG_DATA_TYPE": 5,
+								"servermain.TAG_READ_WRITE_ACCESS": 1,
+								"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+								"servermain.TAG_SCALING_TYPE": 0
+							},
+							{
+								"common.ALLTYPES_NAME": "Temperature",
+								"servermain.TAG_ADDRESS": "40001",
+								"servermain.TAG_DATA_TYPE": 8,
+								"servermain.TAG_READ_WRITE_ACCESS": 1,
+								"servermain.TAG_SCAN_RATE_MILLISECONDS": 100,
+								"servermain.TAG_SCALING_TYPE": 0
+							}
+						]
+					}
+				]
+			}
+		],
+		"client_interfaces": [
+			{
+				"common.ALLTYPES_NAME": "aeserverinterface",
+				"aeserverinterface.ENABLE_AE_SERVER": true,
+				"aeserverinterface.ENABLE_SIMPLE_EVENTS": true,
+				"aeserverinterface.MAX_SUBSCRIPTION_BUFFER_SIZE": 100,
+				"aeserverinterface.MIN_SUBSCRIPTION_BUFFER_TIME_MS": 1000,
+				"aeserverinterface.MIN_KEEP_ALIVE_TIME_MS": 1000
+			},
+			{
+				"common.ALLTYPES_NAME": "ddeserver",
+				"ddeserver.ENABLE": false,
+				"ddeserver.SERVICE_NAME": "kepdde",
+				"ddeserver.ADVANCED_DDE": true,
+				"ddeserver.XLTABLE": true,
+				"ddeserver.CF_TEXT": true,
+				"ddeserver.CLIENT_UPDATE_INTERVAL_MS": 100,
+				"ddeserver.REQUEST_TIMEOUT_SEC": 15
+			},
+			{
+				"common.ALLTYPES_NAME": "hdaserver",
+				"hdaserver.ENABLE": true,
+				"hdaserver.ENABLE_DIAGNOSTICS": false
+			},
+			{
+				"common.ALLTYPES_NAME": "opcdaserver",
+				"opcdaserver.PROJECT_OPC_DA_1_ENABLED": true,
+				"opcdaserver.PROJECT_OPC_DA_2_ENABLED": true,
+				"opcdaserver.PROJECT_OPC_DA_3_ENABLED": true,
+				"opcdaserver.PROJECT_OPC_SHOW_HINTS_ON_BROWSE": false,
+				"opcdaserver.PROJECT_OPC_SHOW_TAG_PROPERTIES_ON_BROWSE": false,
+				"opcdaserver.PROJECT_OPC_SHUTDOWN_WAIT_SEC": 15,
+				"opcdaserver.PROJECT_OPC_SYNC_REQUEST_WAIT_SEC": 15,
+				"opcdaserver.PROJECT_OPC_ENABLE_DIAGS": false,
+				"opcdaserver.PROJECT_OPC_REJECT_UNSUPPORTED_LANG_ID": true,
+				"opcdaserver.PROJECT_OPC_IGNORE_DEADBAND_ON_CACHE": false,
+				"opcdaserver.PROJECT_OPC_IGNORE_BROWSE_FILTER": false,
+				"opcdaserver.PROJECT_OPC_205A_DATA_TYPE_SUPPORT": true,
+				"opcdaserver.PROJECT_OPC_SYNC_READ_ERROR_ON_BAD_QUALITY": false,
+				"opcdaserver.PROJECT_OPC_RETURN_INITIAL_UPDATES_IN_SINGLE_CALLBACK": false,
+				"opcdaserver.PROJECT_OPC_RESPECT_CLIENT_LANG_ID": true,
+				"opcdaserver.PROJECT_OPC_COMPLIANT_DATA_CHANGE": true,
+				"opcdaserver.PROJECT_OPC_IGNORE_GROUP_UPDATE_RATE": false
+			},
+			{
+				"common.ALLTYPES_NAME": "thingworxinterface",
+				"thingworxinterface.ENABLED": false,
+				"thingworxinterface.HOSTNAME": "192.168.61.130",
+				"thingworxinterface.PORT": 443,
+				"thingworxinterface.RESOURCE": "/Thingworx/WS",
+				"thingworxinterface.APPKEY": "f0d1101af532a055a89dc28519e08eadea2c91f1bc289cf90eb48bcb5299ac556d951aeead44b33e7a5dac2fad19ec100f9af0e9f525c30c648b37cf5a096226",
+				"thingworxinterface.ALLOW_SELF_SIGNED_CERTIFICATE": true,
+				"thingworxinterface.TRUST_ALL_CERTIFICATES": true,
+				"thingworxinterface.DISABLE_ENCRYPTION": false,
+				"thingworxinterface.THING_NAME": "SigmaTile_SenseHat",
+				"thingworxinterface.PUBLISH_FLOOR_MSEC": 1000,
+				"thingworxinterface.LOGGING_ENABLED": false,
+				"thingworxinterface.LOG_LEVEL": 3,
+				"thingworxinterface.VERBOSE": false,
+				"thingworxinterface.STORE_AND_FORWARD_ENABLED": false,
+				"thingworxinterface.STORAGE_PATH": "C:\\ProgramData\\Kepware\\KEPServerEX\\V6",
+				"thingworxinterface.DATASTORE_MAXSIZE": 2048,
+				"thingworxinterface.FORWARD_MODE": 0,
+				"thingworxinterface.DATASTORE_ID": 1196674989,
+				"thingworxinterface.PROXY_ENABLED": false,
+				"thingworxinterface.PROXY_HOST": "localhost",
+				"thingworxinterface.PROXY_PORT": 3128,
+				"thingworxinterface.PROXY_USERNAME": "",
+				"thingworxinterface.PROXY_PASSWORD": ""
+			},
+			{
+				"common.ALLTYPES_NAME": "uaserverinterface",
+				"uaserverinterface.PROJECT_OPC_UA_ENABLE": true,
+				"uaserverinterface.PROJECT_OPC_UA_DIAGNOSTICS": false,
+				"uaserverinterface.PROJECT_OPC_UA_ANONYMOUS_LOGIN": true,
+				"uaserverinterface.PROJECT_OPC_UA_MAX_CONNECTIONS": 128,
+				"uaserverinterface.PROJECT_OPC_UA_MIN_SESSION_TIMEOUT_SEC": 15,
+				"uaserverinterface.PROJECT_OPC_UA_MAX_SESSION_TIMEOUT_SEC": 60,
+				"uaserverinterface.PROJECT_OPC_UA_TAG_CACHE_TIMEOUT_SEC": 5,
+				"uaserverinterface.PROJECT_OPC_UA_BROWSE_TAG_PROPERTIES": false,
+				"uaserverinterface.PROJECT_OPC_UA_BROWSE_ADDRESS_HINTS": false,
+				"uaserverinterface.PROJECT_OPC_UA_MAX_DATA_QUEUE_SIZE": 2,
+				"uaserverinterface.PROJECT_OPC_UA_MAX_RETRANSMIT_QUEUE_SIZE": 10,
+				"uaserverinterface.PROJECT_OPC_UA_MAX_NOTIFICATION_PER_PUBLISH": 65536
+			},
+			{
+				"common.ALLTYPES_NAME": "xiserverinterface",
+				"xiserverinterface.ENABLE": true
+			}
+		],
+		"_iot_gateway": [
+			{
+				"common.ALLTYPES_NAME": "_IoT_Gateway",
+				"mqtt_clients": [
+					{
+						"common.ALLTYPES_NAME": "AgenMQTT",
+						"iot_gateway.AGENTTYPES_TYPE": "MQTT Client",
+						"iot_gateway.AGENTTYPES_ENABLED": true,
+						"iot_gateway.MQTT_CLIENT_URL": "tcp://localhost:1883",
+						"iot_gateway.MQTT_CLIENT_TOPIC": "iotgateway",
+						"iot_gateway.MQTT_CLIENT_QOS": 1,
+						"iot_gateway.AGENTTYPES_RATE_MS": 10000,
+						"iot_gateway.AGENTTYPES_PUBLISH_FORMAT": 0,
+						"iot_gateway.AGENTTYPES_MAX_EVENTS": 1000,
+						"iot_gateway.AGENTTYPES_TIMEOUT_S": 5,
+						"iot_gateway.AGENTTYPES_MESSAGE_FORMAT": 0,
+						"iot_gateway.AGENTTYPES_STANDARD_TEMPLATE": "timestamp: |SERVERTIMESTAMP|\r\nvalues: |VALUES|\r\n",
+						"iot_gateway.AGENTTYPES_EXPANSION_OF_VALUES": "id: |TAGNAME|\r\nv: |TAGVALUE|\r\nq: |TAGQUALITY|\r\nt: |TAGTIMESTAMP|\r\n",
+						"iot_gateway.AGENTTYPES_ADVANCED_TEMPLATE": "{\r\n \"timestamp\": |SERVERTIMESTAMP|,\r\n  \"values\": [\r\n   |#each VALUES|\r\n    {\"id\": \"|TAGNAME|\", \"v\": |VALUE|, \"q\": |QUALITY|, \"t\": |TIMESTAMP| } |#unless @last|,|/unless|\r\n   |/each|\r\n  ]\r\n}",
+						"iot_gateway.MQTT_CLIENT_CLIENT_ID": "",
+						"iot_gateway.MQTT_CLIENT_USERNAME": "",
+						"iot_gateway.MQTT_CLIENT_PASSWORD": "",
+						"iot_gateway.MQTT_TLS_VERSION": 0,
+						"iot_gateway.MQTT_CLIENT_CERTIFICATE": false,
+						"iot_gateway.MQTT_CLIENT_ENABLE_LAST_WILL": false,
+						"iot_gateway.MQTT_CLIENT_LAST_WILL_TOPIC": "",
+						"iot_gateway.MQTT_CLIENT_LAST_WILL_MESSAGE": "",
+						"iot_gateway.MQTT_CLIENT_ENABLE_WRITE_TOPIC": false,
+						"iot_gateway.MQTT_CLIENT_WRITE_TOPIC": "iotgateway/write",
+						"iot_items": [
+							{
+								"common.ALLTYPES_NAME": "Channel1_Device1_Acceleration_X",
+								"iot_gateway.IOT_ITEM_SERVER_TAG": "Channel1.Device1.Acceleration_X",
+								"iot_gateway.IOT_ITEM_USE_SCAN_RATE": true,
+								"iot_gateway.IOT_ITEM_SCAN_RATE_MS": 1000,
+								"iot_gateway.IOT_ITEM_SEND_EVERY_SCAN": false,
+								"iot_gateway.IOT_ITEM_DEADBAND_PERCENT": 0,
+								"iot_gateway.IOT_ITEM_ENABLED": true,
+								"iot_gateway.IOT_ITEM_DATA_TYPE": 8
+							},
+							{
+								"common.ALLTYPES_NAME": "Channel1_Device1_Acceleration_Y",
+								"iot_gateway.IOT_ITEM_SERVER_TAG": "Channel1.Device1.Acceleration_Y",
+								"iot_gateway.IOT_ITEM_USE_SCAN_RATE": true,
+								"iot_gateway.IOT_ITEM_SCAN_RATE_MS": 1000,
+								"iot_gateway.IOT_ITEM_SEND_EVERY_SCAN": false,
+								"iot_gateway.IOT_ITEM_DEADBAND_PERCENT": 0,
+								"iot_gateway.IOT_ITEM_ENABLED": true,
+								"iot_gateway.IOT_ITEM_DATA_TYPE": 8
+							},
+							{
+								"common.ALLTYPES_NAME": "Channel1_Device1_Acceleration_Z",
+								"iot_gateway.IOT_ITEM_SERVER_TAG": "Channel1.Device1.Acceleration_Z",
+								"iot_gateway.IOT_ITEM_USE_SCAN_RATE": true,
+								"iot_gateway.IOT_ITEM_SCAN_RATE_MS": 1000,
+								"iot_gateway.IOT_ITEM_SEND_EVERY_SCAN": false,
+								"iot_gateway.IOT_ITEM_DEADBAND_PERCENT": 0,
+								"iot_gateway.IOT_ITEM_ENABLED": true,
+								"iot_gateway.IOT_ITEM_DATA_TYPE": 8
+							},
+							{
+								"common.ALLTYPES_NAME": "Channel1_Device1_BadCount",
+								"iot_gateway.IOT_ITEM_SERVER_TAG": "Channel1.Device1.BadCount",
+								"iot_gateway.IOT_ITEM_USE_SCAN_RATE": true,
+								"iot_gateway.IOT_ITEM_SCAN_RATE_MS": 1000,
+								"iot_gateway.IOT_ITEM_SEND_EVERY_SCAN": false,
+								"iot_gateway.IOT_ITEM_DEADBAND_PERCENT": 0,
+								"iot_gateway.IOT_ITEM_ENABLED": true,
+								"iot_gateway.IOT_ITEM_DATA_TYPE": 5
+							},
+							{
+								"common.ALLTYPES_NAME": "Channel1_Device1_GoodCount",
+								"iot_gateway.IOT_ITEM_SERVER_TAG": "Channel1.Device1.GoodCount",
+								"iot_gateway.IOT_ITEM_USE_SCAN_RATE": true,
+								"iot_gateway.IOT_ITEM_SCAN_RATE_MS": 1000,
+								"iot_gateway.IOT_ITEM_SEND_EVERY_SCAN": false,
+								"iot_gateway.IOT_ITEM_DEADBAND_PERCENT": 0,
+								"iot_gateway.IOT_ITEM_ENABLED": true,
+								"iot_gateway.IOT_ITEM_DATA_TYPE": 5
+							},
+							{
+								"common.ALLTYPES_NAME": "Channel1_Device1_Gyroscope_Pitch",
+								"iot_gateway.IOT_ITEM_SERVER_TAG": "Channel1.Device1.Gyroscope_Pitch",
+								"iot_gateway.IOT_ITEM_USE_SCAN_RATE": true,
+								"iot_gateway.IOT_ITEM_SCAN_RATE_MS": 1000,
+								"iot_gateway.IOT_ITEM_SEND_EVERY_SCAN": false,
+								"iot_gateway.IOT_ITEM_DEADBAND_PERCENT": 0,
+								"iot_gateway.IOT_ITEM_ENABLED": true,
+								"iot_gateway.IOT_ITEM_DATA_TYPE": 8
+							},
+							{
+								"common.ALLTYPES_NAME": "Channel1_Device1_Gyroscope_Roll",
+								"iot_gateway.IOT_ITEM_SERVER_TAG": "Channel1.Device1.Gyroscope_Roll",
+								"iot_gateway.IOT_ITEM_USE_SCAN_RATE": true,
+								"iot_gateway.IOT_ITEM_SCAN_RATE_MS": 1000,
+								"iot_gateway.IOT_ITEM_SEND_EVERY_SCAN": false,
+								"iot_gateway.IOT_ITEM_DEADBAND_PERCENT": 0,
+								"iot_gateway.IOT_ITEM_ENABLED": true,
+								"iot_gateway.IOT_ITEM_DATA_TYPE": 8
+							},
+							{
+								"common.ALLTYPES_NAME": "Channel1_Device1_Gyroscope_Yaw",
+								"iot_gateway.IOT_ITEM_SERVER_TAG": "Channel1.Device1.Gyroscope_Yaw",
+								"iot_gateway.IOT_ITEM_USE_SCAN_RATE": true,
+								"iot_gateway.IOT_ITEM_SCAN_RATE_MS": 1000,
+								"iot_gateway.IOT_ITEM_SEND_EVERY_SCAN": false,
+								"iot_gateway.IOT_ITEM_DEADBAND_PERCENT": 0,
+								"iot_gateway.IOT_ITEM_ENABLED": true,
+								"iot_gateway.IOT_ITEM_DATA_TYPE": 8
+							},
+							{
+								"common.ALLTYPES_NAME": "Channel1_Device1_Humidity",
+								"iot_gateway.IOT_ITEM_SERVER_TAG": "Channel1.Device1.Humidity",
+								"iot_gateway.IOT_ITEM_USE_SCAN_RATE": true,
+								"iot_gateway.IOT_ITEM_SCAN_RATE_MS": 1000,
+								"iot_gateway.IOT_ITEM_SEND_EVERY_SCAN": false,
+								"iot_gateway.IOT_ITEM_DEADBAND_PERCENT": 0,
+								"iot_gateway.IOT_ITEM_ENABLED": true,
+								"iot_gateway.IOT_ITEM_DATA_TYPE": 8
+							},
+							{
+								"common.ALLTYPES_NAME": "Channel1_Device1_Orientation_Pitch",
+								"iot_gateway.IOT_ITEM_SERVER_TAG": "Channel1.Device1.Orientation_Pitch",
+								"iot_gateway.IOT_ITEM_USE_SCAN_RATE": true,
+								"iot_gateway.IOT_ITEM_SCAN_RATE_MS": 1000,
+								"iot_gateway.IOT_ITEM_SEND_EVERY_SCAN": false,
+								"iot_gateway.IOT_ITEM_DEADBAND_PERCENT": 0,
+								"iot_gateway.IOT_ITEM_ENABLED": true,
+								"iot_gateway.IOT_ITEM_DATA_TYPE": 8
+							},
+							{
+								"common.ALLTYPES_NAME": "Channel1_Device1_Orientation_Roll",
+								"iot_gateway.IOT_ITEM_SERVER_TAG": "Channel1.Device1.Orientation_Roll",
+								"iot_gateway.IOT_ITEM_USE_SCAN_RATE": true,
+								"iot_gateway.IOT_ITEM_SCAN_RATE_MS": 1000,
+								"iot_gateway.IOT_ITEM_SEND_EVERY_SCAN": false,
+								"iot_gateway.IOT_ITEM_DEADBAND_PERCENT": 0,
+								"iot_gateway.IOT_ITEM_ENABLED": true,
+								"iot_gateway.IOT_ITEM_DATA_TYPE": 8
+							},
+							{
+								"common.ALLTYPES_NAME": "Channel1_Device1_Orientation_Yaw",
+								"iot_gateway.IOT_ITEM_SERVER_TAG": "Channel1.Device1.Orientation_Yaw",
+								"iot_gateway.IOT_ITEM_USE_SCAN_RATE": true,
+								"iot_gateway.IOT_ITEM_SCAN_RATE_MS": 1000,
+								"iot_gateway.IOT_ITEM_SEND_EVERY_SCAN": false,
+								"iot_gateway.IOT_ITEM_DEADBAND_PERCENT": 0,
+								"iot_gateway.IOT_ITEM_ENABLED": true,
+								"iot_gateway.IOT_ITEM_DATA_TYPE": 8
+							},
+							{
+								"common.ALLTYPES_NAME": "Channel1_Device1_Pressure",
+								"iot_gateway.IOT_ITEM_SERVER_TAG": "Channel1.Device1.Pressure",
+								"iot_gateway.IOT_ITEM_USE_SCAN_RATE": true,
+								"iot_gateway.IOT_ITEM_SCAN_RATE_MS": 1000,
+								"iot_gateway.IOT_ITEM_SEND_EVERY_SCAN": false,
+								"iot_gateway.IOT_ITEM_DEADBAND_PERCENT": 0,
+								"iot_gateway.IOT_ITEM_ENABLED": true,
+								"iot_gateway.IOT_ITEM_DATA_TYPE": 8
+							},
+							{
+								"common.ALLTYPES_NAME": "Channel1_Device1_Screen_Control",
+								"iot_gateway.IOT_ITEM_SERVER_TAG": "Channel1.Device1.Screen_Control",
+								"iot_gateway.IOT_ITEM_USE_SCAN_RATE": true,
+								"iot_gateway.IOT_ITEM_SCAN_RATE_MS": 1000,
+								"iot_gateway.IOT_ITEM_SEND_EVERY_SCAN": false,
+								"iot_gateway.IOT_ITEM_DEADBAND_PERCENT": 0,
+								"iot_gateway.IOT_ITEM_ENABLED": true,
+								"iot_gateway.IOT_ITEM_DATA_TYPE": 5
+							},
+							{
+								"common.ALLTYPES_NAME": "Channel1_Device1_Temperature",
+								"iot_gateway.IOT_ITEM_SERVER_TAG": "Channel1.Device1.Temperature",
+								"iot_gateway.IOT_ITEM_USE_SCAN_RATE": true,
+								"iot_gateway.IOT_ITEM_SCAN_RATE_MS": 1000,
+								"iot_gateway.IOT_ITEM_SEND_EVERY_SCAN": false,
+								"iot_gateway.IOT_ITEM_DEADBAND_PERCENT": 0,
+								"iot_gateway.IOT_ITEM_ENABLED": true,
+								"iot_gateway.IOT_ITEM_DATA_TYPE": 8
+							}
+						]
+					}
+				]
+			}
+		],
+		"mbeglobaldata": [
+			{
+				"common.ALLTYPES_NAME": "mbe_global_data",
+				"modbus_ethernet.CHANNEL_ETHERNET_PORT_NUMBER": 502,
+				"modbus_ethernet.CHANNEL_ETHERNET_PROTOCOL": 0
+			}
+		]
+	}
+}
